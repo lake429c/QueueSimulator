@@ -229,7 +229,7 @@ class CalculateQueue {
 	private double arrival_rate;
 	private double service_rate;
 	private int staff_num;
-	private SQLManager sql_manager = new SQLManager(new String[]{"root", "basekinohara", "sakila"});
+	private SQLManager sql_manager = new SQLManager(new String[]{"root", "hoge", "sakila"});
 	private List<String> customer_name_list = sql_manager.getCustomerNameList();
 	private List<String> staff_name_list = sql_manager.getStaffNameList();
 	private List<Double> actual_values = new ArrayList<>();
